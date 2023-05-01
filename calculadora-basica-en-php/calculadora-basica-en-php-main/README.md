@@ -12,6 +12,10 @@ Para utilizar la calculadora, simplemente ingresa dos números en los campos de 
 
 Puedes personalizar la calculadora para agregar más funcionalidades o para cambiar el diseño y estilo según tus preferencias. El código fuente se proporciona como ejemplo para que puedas modificarlo y adaptarlo a tus necesidades.
 
+## Demo del código
+
+Puedes ver el resultado final del código aquí: https://demos-github-jl.000webhostapp.com/Proyectos-Simples/calculadora_b%c3%a1sica_con_html+css+js.php
+
 ## Contribuciones
 
 Si deseas contribuir al proyecto, siéntete libre de hacer un fork del repositorio y enviar tus cambios a través de un pull request. Todas las contribuciones son bienvenidas y apreciadas.
