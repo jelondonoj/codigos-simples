@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Temporizador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      .timer {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        color: #fff;
+        background-color: #0c7cd5;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        transition: background-color 0.2s ease-in-out;
+      }
+
+      .timer-finished {
+        background-color: #28a745;
+      }
+
+      .timer:hover {
+        background-color: #007bff;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="timer">00:00:00</div>
+    <script>
+      const startingMinutes = 25;
+      let time = startingMinutes * 60;
+
+      const countdownEl = document.querySelector('.timer');
+
+      function updateCountdown() {
+        const minutes = Math.floor(time / 60);
+        let seconds = time % 60;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+
+        countdownEl.innerHTML = `${minutes}:${seconds}`;
+        time--;
+
+        if (time < 0) {
+          clearInterval(intervalId);
+          countdownEl.classList.add('timer-finished');
+        }
+      }
+
+      let intervalId = setInterval(updateCountdown, 1000);
+
+      countdownEl.addEventListener('click', function() {
+        clearInterval(intervalId);
+        time = startingMinutes * 60;
+        intervalId = setInterval(updateCountdown, 1000);
+        countdownEl.classList.remove('timer-finished');
+      });
+    </script>
+  </body>
+</html>
