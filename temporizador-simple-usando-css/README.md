@@ -22,6 +22,10 @@ Este temporizador está creado con las siguientes tecnologías:
 - CSS
 - JavaScript
 
+## Demo del código
+
+Puedes ver el resultado final del código aquí: https://demos-github-jl.000webhostapp.com/Proyectos-Simples/temporizador_con_js.html
+
 ## Créditos
 
 Este temporizador fue creado por Jesús L, como parte de una serie de proyectos simples para la comunidad de programación.
