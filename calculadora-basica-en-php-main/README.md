@@ -14,7 +14,7 @@ Puedes personalizar la calculadora para agregar más funcionalidades o para camb
 
 ## Demo del código
 
-Puedes ver el resultado final del código aquí: https://demos-github-jl.000webhostapp.com/Proyectos-Simples/calculadora_b%c3%a1sica_con_html+css+js.php
+Puedes ver el resultado final del código aquí: https://demos-github-jl.000webhostapp.com/Proyectos-Simples/calculadora_básica_con_html+css+js.php
 
 ## Contribuciones
 
