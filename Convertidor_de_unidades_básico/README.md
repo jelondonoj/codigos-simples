@@ -33,5 +33,9 @@ Este conversor fue creado por Jesús L. Si tiene alguna pregunta o sugerencia, n
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulte el archivo LICENSE para obtener más detalles.
+
+## Captura del proyecto
+
+![Captura del proyecto](SS.png)
   
   </div>
