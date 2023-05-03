@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Conversor de temperatura</h1>
+      <div class="row">
+        <div class="col">
+          <label for="unidad-origen">Unidad de origen:</label>
+          <select name="unidad-origen" id="unidad-origen">
+           <!--- <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option> -->
+          </select>
+        </div>
+        <div class="col">
+          <label for="unidad-destino">Unidad de destino:</label>
+          <select name="unidad-destino" id="unidad-destino">
+        <!--    <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>-->
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="valor-origen">Valor de origen:</label>
+          <input type="number" id="valor-origen" placeholder="Ingrese un valor" />
+        </div>
+        <div class="col">
+          <label for="valor-destino">Valor de destino:</label>
+          <p id="valor-destino"></p>
+        </div>
+      </div>
+      <button id="btn-convertir">Convertir</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
