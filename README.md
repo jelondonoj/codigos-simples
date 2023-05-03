@@ -8,7 +8,7 @@ Este repositorio contiene una serie de proyectos simples de programación, cread
 | --- | --- |
 | Calculadora | Una calculadora simple en HTML, CSS y JavaScript. |
 | Temporizador | Un temporizador personalizado en JavaScript y CSS. |
-| ... | ... |
+| Conversor | Un conversor de unidades en HTML, CSS y JavaScript. |
 
 ## ¿Cómo utilizar estos proyectos?
 
