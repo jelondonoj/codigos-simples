@@ -4,13 +4,12 @@ Este repositorio contiene una serie de proyectos simples de programación, cread
 
 ## Proyectos incluidos
 
-<div align="center">
 | Proyecto | Descripción |
-| Calculadora | Una calculadora simple en HTML, CSS y JS. |
-| Temporizador | Un temporizador personalizado en JS y CSS. |
-| Conversor | Un conversor de unidades en HTML, CSS y JS. |
-| Divisor | Un divisor de cuenta de restaurante en HTML, CSS y JS. |
-</div>
+| --- | --- |
+| Calculadora | Una calculadora simple en HTML, CSS y JavaScript. |
+| Temporizador | Un temporizador personalizado en JavaScript y CSS. |
+| Conversor | Un conversor de unidades en HTML, CSS y JavaScript. |
+| Divisor | Un divisor de cuenta de restaurante en HTML, CSS y JavaScript. |
 
 ## ¿Cómo utilizar estos proyectos?
 
