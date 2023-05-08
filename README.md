@@ -6,7 +6,6 @@ Este repositorio contiene una serie de proyectos simples de programación, cread
 
 <div align="center">
 | Proyecto | Descripción |
-| --- | --- |
 | Calculadora | Una calculadora simple en HTML, CSS y JavaScript. |
 | Temporizador | Un temporizador personalizado en JavaScript y CSS. |
 | Conversor | Un conversor de unidades en HTML, CSS y JavaScript. |
