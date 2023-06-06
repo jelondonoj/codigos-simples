@@ -25,6 +25,7 @@ Este temporizador está creado con las siguientes tecnologías:
 ## Demo del código
 
 Puedes ver el resultado final del código aquí: https://demos-github-jl.000webhostapp.com/Proyectos-Simples/temporizador_con_js.html
+Para ver la versión mejorada, visita este enlace: https://demos-github-jl.000webhostapp.com/Proyectos-Simples/temporizador_con_js_v2.html
 
 ## Créditos
 
